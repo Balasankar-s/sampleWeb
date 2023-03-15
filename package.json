@@ -1,0 +1,22 @@
+{
+  "name": "education-portal",
+  "version": "1.0.0",
+  "description": "Teacher and Student login accessing with their credentials.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "BalaSankar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "json": "^11.0.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.21",
+    "session": "^0.1.0"
+  }
+}
